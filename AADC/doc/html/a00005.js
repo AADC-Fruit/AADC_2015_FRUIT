@@ -1,0 +1,28 @@
+var a00005 =
+[
+    [ "cReceiveThread", "a00016.html", "a00016" ],
+    [ "cArduinoCOM", "a00005.html#a6143c45a0de106b8c87fc861dbad9f0e", null ],
+    [ "~cArduinoCOM", "a00005.html#afd0f65f19251c7e1cf2b11a24aa163c6", null ],
+    [ "ADTF_DECLARE_FILTER_VERSION", "a00005.html#ab0d4ed1fe54bc0db84987243db09fff1", null ],
+    [ "CreateInputPins", "a00005.html#a01d21eca29d43b7f7e27184f3fd2bc59", null ],
+    [ "CreateOutputPins", "a00005.html#a1fff8bfe4524586ed0743f82f9ab8ee1", null ],
+    [ "GetStreamTime", "a00005.html#a586d1c804cc7ba93b8301429fc413497", null ],
+    [ "Init", "a00005.html#a93acdae56d629ae23a377307c50ca76d", null ],
+    [ "OnPinEvent", "a00005.html#a0e324a93348b612ccd31abbf054b3166", null ],
+    [ "ReceiveFrameFromSerial", "a00005.html#a643790c5a8c90050ed62c6aab1265fca", null ],
+    [ "ReceiveMediaSample", "a00005.html#a872f6d093f75b50a72c0dab84cd33e77", null ],
+    [ "SendMediaSample", "a00005.html#a79eac682dac36f6e9b33ee7176e195a0", null ],
+    [ "Shutdown", "a00005.html#a85b55af2488f015f39d6c90ecf947781", null ],
+    [ "Start", "a00005.html#a23e3cbcc52fd1bebf4839557a98f5b99", null ],
+    [ "Stop", "a00005.html#a5218df756847d3c6a449e21930f500a2", null ],
+    [ "WriteFrameToSerial", "a00005.html#ab9a136113c41972b49d14a775a93a062", null ],
+    [ "m_oCOMInputPin", "a00005.html#a5709e934d04b801ac58d626a28bb454c", null ],
+    [ "m_oCOMOutputPin", "a00005.html#aaaa35f036d7a74c3c543c4f44b5af41a", null ],
+    [ "m_oReceivedFrame", "a00005.html#ad50ab8985460f067b0176fe629934445", null ],
+    [ "m_oReceiveThread", "a00005.html#ac897e4a792a9b67f7fb3a6244f70b621", null ],
+    [ "m_oSerialDevice", "a00005.html#aeac48563302f98212377ba52be7bdb30", null ],
+    [ "m_pCoderDescArduinoInputData", "a00005.html#af72b321d1880d6c2b28077e6ae257e26", null ],
+    [ "m_pCoderDescArduinoOutputData", "a00005.html#a879c3d364d4472a9f258278607a6ad98", null ],
+    [ "m_timeLastDataReceived", "a00005.html#aa7053c4292cd3a061470d22e06577ad2", null ],
+    [ "m_timeOutSeconds", "a00005.html#ade84a185e70511818c1e5de6dd0cb007", null ]
+];

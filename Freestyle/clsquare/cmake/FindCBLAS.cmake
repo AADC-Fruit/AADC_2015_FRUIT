@@ -1,0 +1,5 @@
+find_path ( CBLAS_INCLUDE_DIR NAMES gsl_cblas.h PATHS /opt/local/include /usr/local/include /usr/local/include/gsl /usr/include /usr/include/gsl )
+find_library ( CBLAS_LIBRARY NAMES gslcblas HINTS /opt/local/lib /usr/local/lib /usr/lib )
+if ( CBLAS_LIBRARY AND CBLAS_INCLUDE_DIR )
+  set ( FOUND_CBLAS TRUE )
+endif ()

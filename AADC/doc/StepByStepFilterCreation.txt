@@ -1,0 +1,32 @@
+Step by step Filter Creation:
+
+Step 1) 
+Select a template for your filter: either choose one of the existing filters from the AADC code (/home/odroid/AADC) or the ADTF-temokate filter (/opt/arm-linux-gnueabihf/adtf/2.12.1B/src/examples/src/templates/template_filter). For the following explaination, the template filter was chosen.
+
+Step 2 (I think this only needs to be done the first time you create a filter for a project. All the filters we write for the cup should be located in the same folder for simplicity.)
+Create a new folder for your filter(s). For example, create it parallel to the adtfUser/demo folder. Hence, change to /home/odroid/AADC/src/adtfUser and create a new folder, for example "team". In this folder, according to the ADTF standard, the folders include, src and description should be created. Copy the Cmake-file CMakeLists.txt from the folder /home/odrhasoid/AADC/src/adtfUser/demo. It has to be modified in a later step.
+
+Step 3)
+Change to the previously created directory /home/odroid/AADC/src/adtfUser/team/src and create a folder that contains all source files for your new filter, i.e. "AADC_MyNewFilter".
+
+Step 4)
+Copy the files CMakeLists.txt, stdafx.cpp and .h, template.cpp and .h from the Template folder: /opt/arm-linux-gnuabihf/adtf/2.12.1B/src/examples/src/templates/template_filter/src
+Now you have the files you can insert your code into to implement your filter.
+
+Step 5)
+The template filter also includes a examplefile that needs to be copied. Copy "template_data.h" from /opt/arm-linux-gnueabihf/adtf/2.12.1B/src/examples/src/templates/template_filter/include to your folder /home/odroid/AADC/src/adtfUser/team/include
+
+Step 6)
+Now, the CMake-scripts have to be modified. Open the file /home/odroid/AADC/src/adtfUser/team/CMakeLists.txt with an editor of your choice and remove the two lines "add_subtirectory(..)" (ONLY DO THIS THE FIRST TIME YOU CREATE A NEW FILTER! THE LINES YOU DELETE ARE THE TEMPLATE FILES THAT YOU COPIED, AFTERWARDS, ALL FILTERS CREATED BY THE TEAM ARE LOCATED HERE!) Then, add you new filter to the list by adding the line add_subdirectory(src/AADC_MyNewFilter)
+
+Step 7)
+Open the file /home/odroid/AADC/src/adtfUser/CMakeLists.txt and add the line add_subdirectory(team) (ONLY WHEN CREATING A NEW FILTER CATEGORY)
+
+Step 8)
+Open /home/odroid/AADC/src/adtfUser/team/src/AADC_MyNewFilter/CMakeLists.txt and modify the line with the makro adtf_install_plugin(...) to adtf_install_plugin(template_filter ${AADC_INSTALL_DIR})
+
+Step 9)
+In the folder /home/odroid/AADC/src, execute the command ./build_user.sh to build adtfUser. Your filter should be selectable in a ADTF configuration now.
+
+Step 10)
+With this structure, you can start the real implementation of your filter. Rename the files to make sense and never forget to keep the CMake scripts up to date with the new file names!

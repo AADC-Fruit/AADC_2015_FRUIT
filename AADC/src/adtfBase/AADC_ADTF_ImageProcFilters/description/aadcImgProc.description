@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no"?>
+<adtf:ddl xmlns:adtf="adtf">
+	<header>
+		<language_version>3.00</language_version>
+		<author>BFFT GmbH</author>
+		<date_creation>04.07.2014</date_creation>
+		<date_change>04.07.2014</date_change>
+		<description>AADC Common Description File</description>
+	</header>	
+	<structs>
+	<struct name="tXtionData" aligment="1" version="1">
+		 <element type="tInt16" 		name="i16XtionDataDepth" 	bytepos="0" 	arraysize="1" byteorder="LE" alignment="1"/>
+		 <element type="tInt16" 		name="i16XtionDataXPos"   	bytepos="2" 	arraysize="1" byteorder="LE" alignment="1"/>
+		 <element type="tInt16" 		name="i16XtionDataYPos"   	bytepos="4" 	arraysize="1" byteorder="LE" alignment="1"/>
+		 <element type="tInt16" 		name="i16XtionDataPixel"    bytepos="6" 	arraysize="1" byteorder="LE" alignment="1"/> 
+	</struct>
+	<struct name="tObjData" aligment="1" version="1">
+		 <element type="tInt16" 		name="i16ObjNr" 			bytepos="0" 	arraysize="1" byteorder="LE" alignment="1"/>
+		 <element type="tInt16" 		name="i16ObjXLPos"   		bytepos="2" 	arraysize="1" byteorder="LE" alignment="1"/>
+		 <element type="tInt16" 		name="i16ObjXLDept"   	 	bytepos="4" 	arraysize="1" byteorder="LE" alignment="1"/>
+		 <element type="tInt16" 		name="i16ObjXMPos"   		bytepos="8" 	arraysize="1" byteorder="LE" alignment="1"/>
+		 <element type="tInt16" 		name="i16ObjXMDepth"  	 	bytepos="10" 	arraysize="1" byteorder="LE" alignment="1"/>
+		 <element type="tInt16" 		name="i16ObjXRPos"   		bytepos="12" 	arraysize="1" byteorder="LE" alignment="1"/>
+		 <element type="tInt16" 		name="i16ObjXRDepth"   		bytepos="14" 	arraysize="1" byteorder="LE" alignment="1"/>	
+		 <element type="tInt8" 			name="i8Valid"   			bytepos="16"	arraysize="1" byteorder="LE" alignment="1"/>		 
+	</struct> 	
+	</structs>	
+</adtf:ddl>

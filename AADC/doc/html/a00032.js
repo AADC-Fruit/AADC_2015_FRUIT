@@ -1,0 +1,26 @@
+var a00032 =
+[
+    [ "SensorCalibration", "a00032.html#aa3c52ba75a55ec48dfd8020114c19889", null ],
+    [ "~SensorCalibration", "a00032.html#a153a8f66125d2642c37b19b20160c715", null ],
+    [ "ADTF_DECLARE_FILTER_VERSION", "a00032.html#a75456212363c9ab4006c75fba9b62994", null ],
+    [ "CheckConfigurationData", "a00032.html#a55e1bd710572ded9eb6d166786e8d9f2", null ],
+    [ "CreateInputPins", "a00032.html#aae46b47f4668688c6748bab8fb31e8f3", null ],
+    [ "CreateOutputPins", "a00032.html#a00849911fc5a5012c27cf1b4d5681357", null ],
+    [ "getCubicSplineInterpolatedValue", "a00032.html#a39fc7caee4f9568a8e0f01c5f469fabb", null ],
+    [ "getLinearInterpolatedValue", "a00032.html#a2be2422d834e74c871899b4ec1ddc0d4", null ],
+    [ "Init", "a00032.html#ac85a8eb8a412903adae122398a2a4e30", null ],
+    [ "LoadConfigurationData", "a00032.html#ac9de7f1b540d9c4f06cb01a1c122d233", null ],
+    [ "OnPinEvent", "a00032.html#a0af13cbf67e4f220e57150be46e6f4ce", null ],
+    [ "Shutdown", "a00032.html#a99b5e0593f8479158f8cbfa24668df18", null ],
+    [ "Start", "a00032.html#a3ce52b9d1ee11bbbe995bc0216f60608", null ],
+    [ "Stop", "a00032.html#ac9f193a1f5942a937850bf46ad887227", null ],
+    [ "m_bDebugModeEnabled", "a00032.html#ab48f63e531a3d2cc296d509c6f077aa2", null ],
+    [ "m_calibrationMode", "a00032.html#a8d065ff7daede885291873ac0a654f57", null ],
+    [ "m_cubicInterpolation", "a00032.html#ae896945230c636304e8cfd1b134e66aa", null ],
+    [ "m_fileConfig", "a00032.html#a71b8b46703931c097a323642289b21eb", null ],
+    [ "m_oInput", "a00032.html#a42edbb99bff7636ee222b04d4ee741cd", null ],
+    [ "m_oOutput", "a00032.html#a22ba19f3139db559a206de62c86e04a2", null ],
+    [ "m_pCoderDescSignal", "a00032.html#ac4e85a51b104cc50dfd7d7608164c668", null ],
+    [ "m_xValues", "a00032.html#a2bcb85997837c0a93d4d8b31985f36fc", null ],
+    [ "m_yValues", "a00032.html#af0e7f35913467e476b9401f631d5f163", null ]
+];

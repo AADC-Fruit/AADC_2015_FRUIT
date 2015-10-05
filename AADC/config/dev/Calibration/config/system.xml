@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no"?>
+<adtf:project xmlns:adtf="adtf">
+	<general_settings>
+		<property name="active_configuration" type="String" value="Recording" />
+	</general_settings>
+	<configurations>
+		<configuration description="" name="Live" />
+		<configuration description="" name="Playback" />
+		<configuration description="" name="Recording">
+			<graph>
+				<filter alias="AADC_Arduino_Sensors" idref="adtf.aadc.sensors" priority="1" />
+				<filter alias="AADC_Arduino_Communication" idref="adtf.aadc.arduinoCOM" priority="2" />
+				<filter alias="AADC_Infrared_Signals" idref="adtf.aadc.infraredSignals" priority="3" />
+				<connection connection_priority="50" dest="AADC_Arduino_Sensors.ArduinoCOM_input" interface="" source="AADC_Arduino_Communication.COM_output" />
+				<connection connection_priority="50" dest="AADC_Infrared_Signals" interface="" source="AADC_Arduino_Sensors.infrared_sensors" />
+				<filter alias="Print_Filter" idref="fruit.dev.print_filter" priority="4">
+					<settings>
+						<property name="acc_values" type="Int" value="5" />
+					</settings>
+				</filter>
+				<filter alias="AADC_Calibration_Filter_Extended" idref="adtf.aadc.sensorCalibration" priority="5" />
+				<connection connection_priority="50" dest="AADC_Calibration_Filter_Extended.input_value" interface="" source="AADC_Infrared_Signals.voltage_front_center_longrange" />
+				<connection connection_priority="50" dest="Print_Filter.data" interface="" source="AADC_Calibration_Filter_Extended.output_value" />
+			</graph>
+		</configuration>
+	</configurations>
+	<fileinfo adtfversion="2.12.1beta" configversion="1.3" />
+	<configuration_settings />
+</adtf:project>

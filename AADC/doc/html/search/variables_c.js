@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['ui',['ui',['../a00027.html#a503f3f7df31f295eeb6d173b4dbc3090',1,'DisplayWidget']]],
+  ['ui16angle',['ui16Angle',['../a00049.html#a67b81f97df7b268c5662654b07c77555',1,'tag_SteeringAngleData']]],
+  ['ui16frontcenterlongrange',['ui16FrontCenterLongrange',['../a00043.html#acdef242b6e58498328b1cdacfc658eb9',1,'tag_IrData']]],
+  ['ui16frontcentershortange',['ui16FrontCenterShortange',['../a00043.html#ad8aca6c8657492eb24328737b10dca68',1,'tag_IrData']]],
+  ['ui16frontleft',['ui16FrontLeft',['../a00050.html#a66bc2dd5202aac63c4932e788508dce2',1,'tag_UsData']]],
+  ['ui16frontleftlongrange',['ui16FrontLeftLongrange',['../a00043.html#af54ce60b4bae2380f66be14cd6e080b7',1,'tag_IrData']]],
+  ['ui16frontleftshortrange',['ui16FrontLeftShortrange',['../a00043.html#a2efcd1f767d8c5d1272e4d36695b07a7',1,'tag_IrData']]],
+  ['ui16frontright',['ui16FrontRight',['../a00050.html#a8618890dc8843e6a2115a6d4be3ec0e7',1,'tag_UsData']]],
+  ['ui16frontrightlongrange',['ui16FrontRightLongrange',['../a00043.html#a1e597b9fb1b8c0ef5d03f88f02ddcc8c',1,'tag_IrData']]],
+  ['ui16frontrightshortrange',['ui16FrontRightShortrange',['../a00043.html#aeb4710e08338bddb46f5c00c1d71ce3c',1,'tag_IrData']]],
+  ['ui16luminosity',['ui16Luminosity',['../a00048.html#a7d5491be641e5df310db6a5e83e617b7',1,'tag_PhotoData']]],
+  ['ui16measurement',['ui16Measurement',['../a00052.html#a8f9338f5b76566c476dba9a811ce1512',1,'tag_VoltageData']]],
+  ['ui16power',['ui16Power',['../a00052.html#a988f3c4541e66671bd276e78d79c58d4',1,'tag_VoltageData']]],
+  ['ui16rearcentershortrange',['ui16RearCenterShortrange',['../a00043.html#a24bb089d4daf8e655d0d956d6d29212d',1,'tag_IrData']]],
+  ['ui16rearleft',['ui16RearLeft',['../a00050.html#a0ade7028a7a2631b813c3e2e6d447ecb',1,'tag_UsData']]],
+  ['ui16rearleftshortrange',['ui16RearLeftShortrange',['../a00043.html#a855b8c8b5a890acc1948491d6b40e0e2',1,'tag_IrData']]],
+  ['ui16rearright',['ui16RearRight',['../a00050.html#a3658275af7c5969fca94092fadad77fc',1,'tag_UsData']]],
+  ['ui16rearrightshortrange',['ui16RearRightShortrange',['../a00043.html#ab73f8ab475ca3ee33784416c25d71c2c',1,'tag_IrData']]],
+  ['ui32arduinotimestamp',['ui32ArduinoTimestamp',['../a00039.html#a164c7a82287ec7874b494db1fdccef30',1,'tag_ArduinoHeader']]],
+  ['ui32leftwheel',['ui32LeftWheel',['../a00055.html#aa327d4020a769159b09f3d3c966ad7ad',1,'tag_WheelEncoderData']]],
+  ['ui32rightwheel',['ui32RightWheel',['../a00055.html#aeb4c786064833a5e5d21f88d389f0467',1,'tag_WheelEncoderData']]],
+  ['ui8angle',['ui8Angle',['../a00037.html#aa38ceb568f62db705a9dc04c6872377c',1,'tag_AccelerationServoData']]],
+  ['ui8isenabled',['ui8IsEnabled',['../a00053.html#ac3d637df28de3a2cdc84671bef3cf0c1',1,'tag_WatchdogEnableData::ui8IsEnabled()'],['../a00045.html#aeec5bd529b11977f112c664ee7ea493b',1,'tag_MotorRelaisData::ui8IsEnabled()'],['../a00044.html#aff2a652ae6272f455b40d7b8b0528d57',1,'tag_LightData::ui8IsEnabled()']]],
+  ['ui8lightmode',['ui8LightMode',['../a00044.html#a55844d6aab895fd4aa95d61e6089119a',1,'tag_LightData']]],
+  ['ui8toggle',['ui8Toggle',['../a00054.html#aa70b84401ba5b40393ba8fb37f668574',1,'tag_WatchdogToggleData']]]
+];

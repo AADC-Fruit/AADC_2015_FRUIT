@@ -1,0 +1,4 @@
+SET ( CURRENT_LIB_NAME Emotiv )
+SET ( CURRENT_LIB_DEFAULT ON )
+SET ( CURRENT_LIB_TEXT "hardware interface to Emotiv EPOC EEG headset" )
+SET ( CURRENT_LIB_EXTERNAL libemokit )

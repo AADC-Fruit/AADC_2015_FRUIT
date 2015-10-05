@@ -1,0 +1,37 @@
+Property:
+_________
+
+Capture-Mode: Wählbar zw. 2 Auflösungen. 1: 640x480 30 FPS 2:320x240 60 FPS !!Momentan nur 640x480 30 FPS verfügbar!!
+
+Sensibility: Gibt den Schwellwert der Tiefendifferenz an, bei der ein neues Objekt erzeugt wird.
+
+minBreiteObjekt: Gibt die minimale Breite eines Objektes an.
+
+GCL-Offset: Gibt die Verschiebung der GCL Informationen an. Diese wird benötigt um den realen Abstand 
+			der beiden Kamera Systeme zu kompensieren. 
+
+Input:
+______
+
+Input_DepthData: Liest die Tiefeninformationen der AADC_Xtion ein. (Output_DepthData)
+
+
+
+Output:
+_______
+
+Objekt_Output: Gibt die gefundenen Objekte im tObjData Struct aus. (weitere Informationen in AADC.discirption)
+
+GLC_output: Gibt die GCL Informationen der gefundenen Objekte aus. !!Video_Display: ScaleGCL=True!!
+
+
+
+Funktion:
+_________
+
+Der Filter Objekterkennung ermittelt auf Basis der Tiefeninformationen des "Laserscanners" der Xtion
+die Objekte. Mit dem Property Sensibility lässt sich die Schwelle einstellen, ab dem zwei benachbarte
+Punkte keine Ebene sondern einen Sprung darstellen. 
+Die Ausgabe folgt im tObjData Struct. Dieses stellt ein L-Shape dar. Mit einem Rechten und Linken Punkt.
+Der Mittlere Punkt ist der Punkt zwischen den beiden Außenpunkten mit der geringsten Entfernung zur Kamera.
+Mit dem GCL-Offset wird der Versatz der beiden Kamera Systeme kompensiert.

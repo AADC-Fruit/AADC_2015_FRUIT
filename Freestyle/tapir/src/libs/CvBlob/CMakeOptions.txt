@@ -1,0 +1,4 @@
+SET ( CURRENT_LIB_NAME cvblob )
+SET ( CURRENT_LIB_DEFAULT ON )
+SET ( CURRENT_LIB_TEXT "CvBlob blob detection library" )
+SET ( CURRENT_LIB_EXTERNAL libcvblob )

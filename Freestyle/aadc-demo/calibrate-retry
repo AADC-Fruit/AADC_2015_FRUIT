@@ -1,0 +1,5 @@
+# ./clsquare scripts/collect.cls
+Rscript scripts/ica.R 
+evince log/ica.pdf
+vim config/eog.cfg
+rm -f *Rout
