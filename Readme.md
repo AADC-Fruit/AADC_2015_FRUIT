@@ -6,6 +6,8 @@ The `AADC` folder contains the components that were used during the competition 
 
 <hr>
 
-<div style="text-align:center"><img src ="AADC/img/Audimon.png" /></div>
+<p align="center">
+  <img src="AADC/img/Audimon.png"/>
+</p>
 
 2015 - Gabriel Kalweit, Max Lohmann, Nicolas Riesterer, Oliver Worm, Minghao Xia
